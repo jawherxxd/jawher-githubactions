@@ -4,6 +4,3 @@ function greet(name) {
 module.exports = { greet };
 
 // Example usage:
-if (require.main === module) {
-  console.log(greet("Jawher")); // Output: Hello, Jawher!
-}
